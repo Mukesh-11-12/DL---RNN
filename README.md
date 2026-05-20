@@ -227,8 +227,8 @@ def train_model(model, train_loader, criterion, optimizer, epochs=20):
 train_losses = train_model(model, train_loader, criterion, optimizer, epochs=20)
 
 # Plot training loss
-print('Name:SAIPRASATH P')
-print('Register Number:212224230238')
+print('Name:D.MUKESH')
+print('Register Number:212224040204')
 plt.plot(train_losses, label='Training Loss')
 plt.xlabel('Epoch')
 plt.ylabel('MSE Loss')
@@ -247,8 +247,8 @@ predicted_prices = scaler.inverse_transform(predicted)
 actual_prices = scaler.inverse_transform(actual)
 
 # Plot the predictions vs actual prices
-print('Name:SAIPRASATH P')
-print('Register Number:212224230238')
+print('Name:D.MUKESH')
+print('Register Number:212224040204')
 plt.figure(figsize=(10, 6))
 plt.plot(actual_prices, label='Actual Price')
 plt.plot(predicted_prices, label='Predicted Price')
@@ -268,12 +268,14 @@ print(f'Actual Price: {actual_prices[-1]}')
 ## Training Loss Over Epochs Plot
 
 <img width="291" height="452" alt="image" src="https://github.com/user-attachments/assets/bcb2a157-5295-4c30-9b11-8aecded96430" />
-<img width="1383" height="1137" alt="image" src="https://github.com/user-attachments/assets/033b166b-9e4b-4e1b-9a3a-4498c84a1e84" />
+<img width="731" height="559" alt="image" src="https://github.com/user-attachments/assets/28359ada-e370-40e7-a2fc-fa20ca557b16" />
+
 
 
 ## True Stock Price, Predicted Stock Price vs time
 
-<img width="1542" height="1020" alt="image" src="https://github.com/user-attachments/assets/9860cd66-1f1d-497a-97b7-52ca4415ce6a" />
+<img width="996" height="663" alt="image" src="https://github.com/user-attachments/assets/16db2a05-d668-45a2-b9ff-6dc2cf0002ae" />
+
 
 ### Predictions
 
